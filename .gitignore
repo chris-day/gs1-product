@@ -221,3 +221,4 @@ __marimo__/
 
 # Local Caddy configuration
 /caddy-reverse-proxy.json
+/helper.txt

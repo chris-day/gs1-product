@@ -3,14 +3,14 @@ site_url = "https://starlord.perdl.com/"
 docs_dir = "docs"
 site_dir = "site"
 use_directory_urls = true
-site_name = "Documentation"
-# site_description = "Your project description"
-# site_author = "Your name"
+site_name = "GS1 Inspired Product Demonstration"
+site_description = "GS1 Inspired Product Demonstration"
+site_author = "Chris Day"
 
-# copyright = "Copyright &copy; 2026 Your name"
+# copyright = "Copyright &copy; 2026 Chris Day"
 
-# repo_url = "https://github.com/user/repo"
-# repo_name = "user/repo"
+repo_url = "https://github.com/chris-day/gs1-product"
+repo_name = "chris-day/gs1-product"
 # edit_uri = "edit/main/docs/"
 
 nav = [
