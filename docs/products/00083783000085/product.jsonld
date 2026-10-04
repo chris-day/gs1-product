@@ -1,0 +1,115 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "gtin14": "00083783000085",
+  "name": "Sierra Nevada Torpedo Extra IPA, single 12 US fl oz bottle",
+  "brand": {
+    "@type": "Brand",
+    "name": "Sierra Nevada Brewing Co.",
+    "url": "https://starlord.perdl.com/brands/00083783000085/"
+  },
+  "description": "Single 12 US fl oz bottle of Sierra Nevada Torpedo Extra IPA.",
+  "category": "Beer",
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "GPC Brick",
+      "value": "10000159"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Net content",
+      "value": "12 US fl oz"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Container",
+      "value": "Bottle"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Pack count",
+      "value": 1
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Alcohol by volume",
+      "value": "7.2%"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "IBU",
+      "value": 65
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Ingredients (example)",
+      "value": "Example product-family ingredient list: water, barley malt, hops, yeast. Ingredient order is not verified for this exact GTIN."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Allergens (example / evidence status)",
+      "value": "Contains barley (a gluten-containing cereal), based on the product-family ingredient list. Exact-GTIN pack declaration and cross-contact wording are not verified."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Ingredient and allergen provenance",
+      "value": "Sourced product-family example; exact-GTIN ingredients and label wording not verified. Allergen identification is an inference from barley malt."
+    }
+  ],
+  "@id": "https://starlord.perdl.com/products/00083783000085/#product",
+  "url": "https://starlord.perdl.com/products/00083783000085/",
+  "sku": "TEST-00083783000085",
+  "image": [
+    "https://craftshack.com/cdn/shop/products/custom_resized_74fb980f-f356-4439-85d1-b7c577c203da_535x.png?v=1693406485"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "@id": "https://starlord.perdl.com/products/00083783000085/#test-offer",
+    "url": "https://starlord.perdl.com/products/00083783000085/",
+    "price": "3.25",
+    "priceCurrency": "GBP",
+    "priceValidUntil": "2026-12-31",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "seller": {
+      "@type": "Organization",
+      "@id": "https://starlord.perdl.com/store/#test-seller",
+      "name": "Starlord Test Store",
+      "url": "https://starlord.perdl.com/store/"
+    },
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "3.99",
+        "currency": "GBP"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "GB"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 2,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 2,
+          "maxValue": 4,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "GB",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "url": "https://starlord.perdl.com/returns/"
+    }
+  }
+}

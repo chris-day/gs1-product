@@ -1,0 +1,128 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "gtin14": "00195950643718",
+  "name": "Apple iPhone 17 256GB White",
+  "brand": {
+    "@type": "Brand",
+    "name": "Apple",
+    "url": "https://starlord.perdl.com/brands/00195950643718/"
+  },
+  "mpn": "MG6K4QN/A",
+  "model": "iPhone 17",
+  "color": "White",
+  "description": "White Apple iPhone 17 smartphone with 256GB storage, A19 chip and a 6.3-inch OLED display.",
+  "category": "Smartphones",
+  "weight": {
+    "@type": "QuantitativeValue",
+    "value": 177,
+    "unitCode": "GRM"
+  },
+  "height": {
+    "@type": "QuantitativeValue",
+    "value": 149.6,
+    "unitCode": "MMT"
+  },
+  "width": {
+    "@type": "QuantitativeValue",
+    "value": 71.5,
+    "unitCode": "MMT"
+  },
+  "depth": {
+    "@type": "QuantitativeValue",
+    "value": 7.95,
+    "unitCode": "MMT"
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Storage",
+      "value": "256 GB"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "GPC Brick",
+      "value": "10001198"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Processor",
+      "value": "A19"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Display resolution",
+      "value": "2622 x 1206"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Operating system",
+      "value": "iOS"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Food ingredient applicability",
+      "value": "Not applicable — smartphone, not food."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Food allergen applicability",
+      "value": "Not applicable: smartphone, not a food or beverage. This does not assert that device materials are free of contact allergens."
+    }
+  ],
+  "@id": "https://starlord.perdl.com/products/00195950643718/#product",
+  "url": "https://starlord.perdl.com/products/00195950643718/",
+  "sku": "TEST-00195950643718",
+  "image": [
+    "https://www.icentre.com.mt/cdn/shop/files/IMG-18066267_m_jpeg_1.jpg?v=1778716712&width=823"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "@id": "https://starlord.perdl.com/products/00195950643718/#test-offer",
+    "url": "https://starlord.perdl.com/products/00195950643718/",
+    "price": "799.00",
+    "priceCurrency": "GBP",
+    "priceValidUntil": "2026-12-31",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "seller": {
+      "@type": "Organization",
+      "@id": "https://starlord.perdl.com/store/#test-seller",
+      "name": "Starlord Test Store",
+      "url": "https://starlord.perdl.com/store/"
+    },
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "3.99",
+        "currency": "GBP"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "GB"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 2,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 2,
+          "maxValue": 4,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "GB",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "url": "https://starlord.perdl.com/returns/"
+    }
+  }
+}

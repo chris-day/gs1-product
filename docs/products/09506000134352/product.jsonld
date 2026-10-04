@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "gtin14": "09506000134352",
+  "name": "Dal Giardino Risotto Rice with Mushrooms 411g",
+  "brand": {
+    "@type": "Brand",
+    "name": "Dal Giardino",
+    "url": "https://starlord.perdl.com/brands/09506000134352/"
+  },
+  "description": "Fictional GS1 demonstration pack of risotto rice with mushrooms, 411g.",
+  "@id": "https://starlord.perdl.com/products/09506000134352/#product",
+  "url": "https://starlord.perdl.com/products/09506000134352/",
+  "sku": "TEST-09506000134352",
+  "category": "Risotto rice with mushrooms",
+  "image": [
+    "https://philarcher.org/gs1/mrhi/2018-07-24/Dal_Giardino_Risotto_Rice_With_Nett_260.png"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Net content",
+      "value": "411 g"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Ingredients (example)",
+      "value": "TEST ONLY — fictional ingredients: moonbeam rice, mushrooms wearing tiny hats, a spoonful of kitchen confidence, parsley confetti and one heroic stir. Not a real ingredient list."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Allergens (example / evidence status)",
+      "value": "TEST ONLY — imaginary allergens: mushroom mischief and dramatic chef gestures. May contain traces of Monday mornings. Not a real allergen declaration."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Ingredient and allergen provenance",
+      "value": "Humorous invented test fixture for a fictional GS1 product. Real ingredients, allergens and cross-contact information remain unknown; these joke terms have no food-safety meaning."
+    }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "@id": "https://starlord.perdl.com/products/09506000134352/#test-offer",
+    "url": "https://starlord.perdl.com/products/09506000134352/",
+    "price": "3.45",
+    "priceCurrency": "GBP",
+    "priceValidUntil": "2026-12-31",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "seller": {
+      "@type": "Organization",
+      "@id": "https://starlord.perdl.com/store/#test-seller",
+      "name": "Starlord Test Store",
+      "url": "https://starlord.perdl.com/store/"
+    },
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "3.99",
+        "currency": "GBP"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "GB"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 2,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 2,
+          "maxValue": 4,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "GB",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "url": "https://starlord.perdl.com/returns/"
+    }
+  }
+}

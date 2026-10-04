@@ -1,0 +1,212 @@
+{
+  "baseUrl": "https://starlord.perdl.com",
+  "testData": true,
+  "date": "2026-10-04",
+  "syntheticFields": [
+    "sku",
+    "url",
+    "@id",
+    "offers (all fields, including seller, price, availability, condition, dates, shipping and returns)"
+  ],
+  "notes": [
+    "No invented reviews or ratings: offers satisfy the relevant required-field path.",
+    "External image URLs are referenced, not downloaded. Image sources do not imply reuse permission.",
+    "One Product node per detail page. Combined JSON-LD is an interchange fixture, not category-page rich-result markup.",
+    "Local noindex fixtures are for development. They are not eligible for live Google results; replace synthetic commerce fields before production.",
+    "GS1 GPC brick codes are not Google Product Taxonomy IDs.",
+    "Ingredient and allergen statements are explicitly scoped examples. Food allergen unknown is not equivalent to absent. Phone food properties are not applicable.",
+    "HTML navigation links target local docs pages; external source addresses are reference text.",
+    "No credentials included. Full custom templates preserve the reference layout."
+  ],
+  "records": [
+    {
+      "gtin14": "09506000134352",
+      "name": "Dal Giardino Risotto Rice with Mushrooms 411g",
+      "identityStatus": "conflict_demonstration",
+      "imageUrl": "https://philarcher.org/gs1/mrhi/2018-07-24/Dal_Giardino_Risotto_Rice_With_Nett_260.png",
+      "imageSourcePage": "https://dalgiardino.com/risotto-rice-with-mushrooms/index.html.en",
+      "imageNote": "GS1 fictional demonstration product. Supplied frozen-cheese GPC is conflicting and omitted.",
+      "testPriceGBP": "3.45",
+      "pageUrl": "https://starlord.perdl.com/products/09506000134352/",
+      "researchSources": [
+        {
+          "url": "https://id.gs1.org/01/9506000134352?linkType=all",
+          "supports": [
+            "GTIN",
+            "name",
+            "brand",
+            "411g net content"
+          ]
+        },
+        {
+          "url": "https://www.gs1tw.org/twct/web/gs1-d-link.jsp?menuactive=1",
+          "supports": [
+            "demonstration status"
+          ]
+        },
+        {
+          "url": "https://dalgiardino.com/risotto-rice-with-mushrooms/index.html.en",
+          "supports": [
+            "Fictional product identity; source page has no ingredient list or allergen declaration."
+          ],
+          "scope": "Identity only; humorous ingredient and allergen fixtures are invented and are not source claims."
+        }
+      ],
+      "foodComposition": {
+        "ingredientStatement": "TEST ONLY \u2014 fictional ingredients: moonbeam rice, mushrooms wearing tiny hats, a spoonful of kitchen confidence, parsley confetti and one heroic stir. Not a real ingredient list.",
+        "allergenStatement": "TEST ONLY \u2014 imaginary allergens: mushroom mischief and dramatic chef gestures. May contain traces of Monday mornings. Not a real allergen declaration.",
+        "status": "Humorous invented test fixture for a fictional GS1 product. Real ingredients, allergens and cross-contact information remain unknown; these joke terms have no food-safety meaning.",
+        "sources": [
+          {
+            "url": "https://dalgiardino.com/risotto-rice-with-mushrooms/index.html.en",
+            "supports": [
+              "Fictional product identity; source page has no ingredient list or allergen declaration."
+            ],
+            "scope": "Identity only; humorous ingredient and allergen fixtures are invented and are not source claims."
+          }
+        ]
+      }
+    },
+    {
+      "gtin14": "00195950643718",
+      "name": "Apple iPhone 17 256GB White",
+      "identityStatus": "confirmed_retailer_match",
+      "imageUrl": "https://www.icentre.com.mt/cdn/shop/files/IMG-18066267_m_jpeg_1.jpg?v=1778716712&width=823",
+      "imageSourcePage": "https://www.icentre.com.mt/products/iphone-17-mg6k4qn-a",
+      "imageNote": "White iPhone 17 image on exact-barcode retailer page; image cannot visually establish storage capacity.",
+      "testPriceGBP": "799.00",
+      "pageUrl": "https://starlord.perdl.com/products/00195950643718/",
+      "researchSources": [
+        {
+          "url": "https://www.icentre.com.mt/products/iphone-17-mg6k4qn-a",
+          "supports": [
+            "GTIN",
+            "name",
+            "brand",
+            "colour",
+            "capacity",
+            "manufacturer part number",
+            "observed seller price"
+          ]
+        },
+        {
+          "url": "https://www.apple.com/iphone-17/specs/",
+          "supports": [
+            "model-level specifications; regional SIM/radio variants not inferred"
+          ]
+        }
+      ],
+      "foodComposition": {
+        "ingredientStatement": null,
+        "allergenStatement": null,
+        "status": "Not applicable: smartphone, not a food or beverage. This does not assert that device materials are free of contact allergens.",
+        "sources": []
+      }
+    },
+    {
+      "gtin14": "00083783000085",
+      "name": "Sierra Nevada Torpedo Extra IPA, single 12 US fl oz bottle",
+      "identityStatus": "corroborated_barcode_match",
+      "imageUrl": "https://craftshack.com/cdn/shop/products/custom_resized_74fb980f-f356-4439-85d1-b7c577c203da_535x.png?v=1693406485",
+      "imageSourcePage": "https://craftshack.com/products/sierra-nevada-torpedo-extra-ipa",
+      "imageNote": "Representative 12 fl oz bottle packshot from CraftShack; exact GTIN is corroborated separately by the UPC catalogue. Original catalogue image host failed DNS resolution.",
+      "testPriceGBP": "3.25",
+      "pageUrl": "https://starlord.perdl.com/products/00083783000085/",
+      "researchSources": [
+        {
+          "url": "https://www.upcitemdb.com/upc/83783000085",
+          "supports": [
+            "exact UPC",
+            "brand",
+            "single bottle",
+            "12 US fl oz"
+          ]
+        },
+        {
+          "url": "https://sierranevada.com/brews/torpedo",
+          "supports": [
+            "model-level beer characteristics"
+          ]
+        },
+        {
+          "url": "https://www.beyondbeer.de/en/Sierra-Nevada-Torpedo-Flasche/2220037",
+          "supports": [
+            "Torpedo bottle product-family ingredient list: water, barley malt, hops, yeast."
+          ],
+          "scope": "Indexed retailer listing; exact GTIN not established."
+        },
+        {
+          "url": "https://sierranevada.com/brews/torpedo",
+          "supports": [
+            "Manufacturer corroborates malts, hop varieties and ale yeast."
+          ],
+          "scope": "Product family, not exact bottle GTIN."
+        }
+      ],
+      "foodComposition": {
+        "ingredientStatement": "Example product-family ingredient list: water, barley malt, hops, yeast. Ingredient order is not verified for this exact GTIN.",
+        "allergenStatement": "Contains barley (a gluten-containing cereal), based on the product-family ingredient list. Exact-GTIN pack declaration and cross-contact wording are not verified.",
+        "status": "Sourced product-family example; exact-GTIN ingredients and label wording not verified. Allergen identification is an inference from barley malt.",
+        "sources": [
+          {
+            "url": "https://www.beyondbeer.de/en/Sierra-Nevada-Torpedo-Flasche/2220037",
+            "supports": [
+              "Torpedo bottle product-family ingredient list: water, barley malt, hops, yeast."
+            ],
+            "scope": "Indexed retailer listing; exact GTIN not established."
+          },
+          {
+            "url": "https://sierranevada.com/brews/torpedo",
+            "supports": [
+              "Manufacturer corroborates malts, hop varieties and ale yeast."
+            ],
+            "scope": "Product family, not exact bottle GTIN."
+          }
+        ]
+      }
+    },
+    {
+      "gtin14": "05000119096753",
+      "name": "Tesco Raspberry Jam 454g",
+      "identityStatus": "provisional_marketplace_match",
+      "imageUrl": "https://i.ebayimg.com/thumbs/images/g/9TYAAeSwi69qEIX9/s-l500.jpg",
+      "imageSourcePage": "https://www.ebay.co.uk/itm/227324377359",
+      "imageNote": "Image from exact EAN marketplace listing. Product identity remains provisional; listing has ended.",
+      "testPriceGBP": "0.89",
+      "pageUrl": "https://starlord.perdl.com/products/05000119096753/",
+      "researchSources": [
+        {
+          "url": "https://www.ebay.co.uk/itm/227324377359",
+          "supports": [
+            "EAN",
+            "name",
+            "brand",
+            "454g"
+          ]
+        },
+        {
+          "url": "https://www.tesco.com/shop/en-GB/products/254849592",
+          "supports": [
+            "Non-seedless Tesco Raspberry Jam 454g ingredient list; no explicit allergen declaration found."
+          ],
+          "scope": "Same named product and size; exact GTIN not confirmed on source page."
+        }
+      ],
+      "foodComposition": {
+        "ingredientStatement": "Example from Tesco Raspberry Jam 454g listing: sugar, raspberry, gelling agent (pectin), acidity regulators (citric acid, trisodium citrate).",
+        "allergenStatement": "TEST ONLY \u2014 imaginary allergens: breakfast optimism and uncontrollable toast enthusiasm. May contain traces of sticky fingers. Not a real allergen declaration.",
+        "status": "Ingredient example is sourced from the named Tesco product, not exact-GTIN verified. Allergen text is a humorous invented test fixture; the real declaration and cross-contact information remain unknown. Product identity remains provisional.",
+        "sources": [
+          {
+            "url": "https://www.tesco.com/shop/en-GB/products/254849592",
+            "supports": [
+              "Non-seedless Tesco Raspberry Jam 454g ingredient list; no explicit allergen declaration found."
+            ],
+            "scope": "Same named product and size; exact GTIN not confirmed on source page."
+          }
+        ]
+      }
+    }
+  ],
+  "packageVersion": "1.2.1"
+}

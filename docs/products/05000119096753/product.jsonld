@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "gtin14": "05000119096753",
+  "name": "Tesco Raspberry Jam 454g",
+  "brand": {
+    "@type": "Brand",
+    "name": "Tesco",
+    "url": "https://starlord.perdl.com/brands/05000119096753/"
+  },
+  "description": "Tesco Raspberry Jam 454g.",
+  "@id": "https://starlord.perdl.com/products/05000119096753/#product",
+  "url": "https://starlord.perdl.com/products/05000119096753/",
+  "sku": "TEST-05000119096753",
+  "category": "Jams/Marmalades (Shelf Stable)",
+  "image": [
+    "https://i.ebayimg.com/thumbs/images/g/9TYAAeSwi69qEIX9/s-l500.jpg"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Net content",
+      "value": "454 g"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "GPC Brick",
+      "value": "10000217"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Ingredients (example)",
+      "value": "Example from Tesco Raspberry Jam 454g listing: sugar, raspberry, gelling agent (pectin), acidity regulators (citric acid, trisodium citrate)."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Allergens (example / evidence status)",
+      "value": "TEST ONLY — imaginary allergens: breakfast optimism and uncontrollable toast enthusiasm. May contain traces of sticky fingers. Not a real allergen declaration."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Ingredient and allergen provenance",
+      "value": "Ingredient example is sourced from the named Tesco product, not exact-GTIN verified. Allergen text is a humorous invented test fixture; the real declaration and cross-contact information remain unknown. Product identity remains provisional."
+    }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "@id": "https://starlord.perdl.com/products/05000119096753/#test-offer",
+    "url": "https://starlord.perdl.com/products/05000119096753/",
+    "price": "0.89",
+    "priceCurrency": "GBP",
+    "priceValidUntil": "2026-12-31",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "seller": {
+      "@type": "Organization",
+      "@id": "https://starlord.perdl.com/store/#test-seller",
+      "name": "Starlord Test Store",
+      "url": "https://starlord.perdl.com/store/"
+    },
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "3.99",
+        "currency": "GBP"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "GB"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 2,
+          "unitCode": "DAY"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 2,
+          "maxValue": 4,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "GB",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+      "url": "https://starlord.perdl.com/returns/"
+    }
+  }
+}
