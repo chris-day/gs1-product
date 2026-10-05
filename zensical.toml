@@ -2,7 +2,7 @@
 site_url = "https://starlord.perdl.com/"
 docs_dir = "docs"
 site_dir = "site"
-use_directory_urls = true
+use_directory_urls = false
 site_name = "GS1 Inspired Product Demonstration"
 site_description = "GS1 Inspired Product Demonstration"
 site_author = "Chris Day"
