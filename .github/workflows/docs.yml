@@ -68,3 +68,5 @@ jobs:
 
       - uses: actions/deploy-pages@v5
         id: deployment
+        env:
+          NODE_OPTIONS: --disable-warning=DEP0040
