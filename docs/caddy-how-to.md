@@ -1,6 +1,6 @@
 # Caddy How-To
 
-Use Caddy to expose the local Zensical preview at `https://starlord.perdl.com`.
+Use Caddy to expose the local Zensical preview at `https://gs1-product.perdl.com`.
 Caddy accepts HTTPS on port 443 and forwards requests to Zensical over HTTP on
 `localhost:8000`. Run all project commands below from the repository root.
 
@@ -50,7 +50,7 @@ Create `caddy-reverse-proxy.json` in the repository root using this example:
               "match": [
                 {
                   "host": [
-                    "starlord.perdl.com"
+                    "gs1-product.perdl.com"
                   ]
                 }
               ],
@@ -97,7 +97,7 @@ These are values to edit in the JSON, not shell environment variables. Caddy mus
 be able to read both files. Keep the private key accessible only to authorized
 users. See Caddy's [certificate file reference](https://caddyserver.com/docs/json/apps/tls/certificates/load_files/).
 
-The certificate must cover `starlord.perdl.com`, and clients must trust its issuer.
+The certificate must cover `gs1-product.perdl.com`, and clients must trust its issuer.
 Ensure that the hostname resolves to the machine running Caddy and that clients
 can reach port 443. For another hostname, update the `host` array and use a
 certificate covering that hostname. Caddy may also open port 80 for automatic
@@ -140,10 +140,10 @@ sudo caddy run --config caddy-reverse-proxy.json
 ```
 
 This runs Caddy in the foreground. Leave both terminals open, then visit
-[https://starlord.perdl.com](https://starlord.perdl.com), or check with:
+[https://gs1-product.perdl.com](https://gs1-product.perdl.com), or check with:
 
 ```bash
-curl -I https://starlord.perdl.com/
+curl -I https://gs1-product.perdl.com/
 ```
 
 Press `Ctrl+C` in each terminal to stop its server. After editing the JSON,

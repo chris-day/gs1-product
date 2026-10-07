@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://starlord.perdl.com",
+  "baseUrl": "https://gs1-product.perdl.com",
   "testData": true,
   "date": "2026-10-04",
   "syntheticFields": [
@@ -27,7 +27,7 @@
       "imageSourcePage": "https://dalgiardino.com/risotto-rice-with-mushrooms/index.html.en",
       "imageNote": "GS1 fictional demonstration product. Supplied frozen-cheese GPC is conflicting and omitted.",
       "testPriceGBP": "3.45",
-      "pageUrl": "https://starlord.perdl.com/products/09506000134352/",
+      "pageUrl": "https://gs1-product.perdl.com/products/09506000134352/",
       "researchSources": [
         {
           "url": "https://id.gs1.org/01/9506000134352?linkType=all",
@@ -75,7 +75,7 @@
       "imageSourcePage": "https://www.icentre.com.mt/products/iphone-17-mg6k4qn-a",
       "imageNote": "White iPhone 17 image on exact-barcode retailer page; image cannot visually establish storage capacity.",
       "testPriceGBP": "799.00",
-      "pageUrl": "https://starlord.perdl.com/products/00195950643718/",
+      "pageUrl": "https://gs1-product.perdl.com/products/00195950643718/",
       "researchSources": [
         {
           "url": "https://www.icentre.com.mt/products/iphone-17-mg6k4qn-a",
@@ -111,7 +111,7 @@
       "imageSourcePage": "https://craftshack.com/products/sierra-nevada-torpedo-extra-ipa",
       "imageNote": "Representative 12 fl oz bottle packshot from CraftShack; exact GTIN is corroborated separately by the UPC catalogue. Original catalogue image host failed DNS resolution.",
       "testPriceGBP": "3.25",
-      "pageUrl": "https://starlord.perdl.com/products/00083783000085/",
+      "pageUrl": "https://gs1-product.perdl.com/products/00083783000085/",
       "researchSources": [
         {
           "url": "https://www.upcitemdb.com/upc/83783000085",
@@ -173,7 +173,7 @@
       "imageSourcePage": "https://www.ebay.co.uk/itm/227324377359",
       "imageNote": "Image from exact EAN marketplace listing. Product identity remains provisional; listing has ended.",
       "testPriceGBP": "0.89",
-      "pageUrl": "https://starlord.perdl.com/products/05000119096753/",
+      "pageUrl": "https://gs1-product.perdl.com/products/05000119096753/",
       "researchSources": [
         {
           "url": "https://www.ebay.co.uk/itm/227324377359",

@@ -6,11 +6,11 @@
   "brand": {
     "@type": "Brand",
     "name": "Tesco",
-    "url": "https://starlord.perdl.com/brands/05000119096753/"
+    "url": "https://gs1-product.perdl.com/brands/05000119096753/"
   },
   "description": "Tesco Raspberry Jam 454g.",
-  "@id": "https://starlord.perdl.com/products/05000119096753/#product",
-  "url": "https://starlord.perdl.com/products/05000119096753/",
+  "@id": "https://gs1-product.perdl.com/products/05000119096753/#product",
+  "url": "https://gs1-product.perdl.com/products/05000119096753/",
   "sku": "TEST-05000119096753",
   "category": "Jams/Marmalades (Shelf Stable)",
   "image": [
@@ -45,8 +45,8 @@
   ],
   "offers": {
     "@type": "Offer",
-    "@id": "https://starlord.perdl.com/products/05000119096753/#test-offer",
-    "url": "https://starlord.perdl.com/products/05000119096753/",
+    "@id": "https://gs1-product.perdl.com/products/05000119096753/#test-offer",
+    "url": "https://gs1-product.perdl.com/products/05000119096753/",
     "price": "0.89",
     "priceCurrency": "GBP",
     "priceValidUntil": "2026-12-31",
@@ -54,9 +54,9 @@
     "itemCondition": "https://schema.org/NewCondition",
     "seller": {
       "@type": "Organization",
-      "@id": "https://starlord.perdl.com/store/#test-seller",
+      "@id": "https://gs1-product.perdl.com/store/#test-seller",
       "name": "Starlord Test Store",
-      "url": "https://starlord.perdl.com/store/"
+      "url": "https://gs1-product.perdl.com/store/"
     },
     "shippingDetails": {
       "@type": "OfferShippingDetails",
@@ -89,7 +89,7 @@
       "@type": "MerchantReturnPolicy",
       "applicableCountry": "GB",
       "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
-      "url": "https://starlord.perdl.com/returns/"
+      "url": "https://gs1-product.perdl.com/returns/"
     }
   }
 }

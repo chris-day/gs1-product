@@ -8,11 +8,11 @@
       "brand": {
         "@type": "Brand",
         "name": "Dal Giardino",
-        "url": "https://starlord.perdl.com/brands/09506000134352/"
+        "url": "https://gs1-product.perdl.com/brands/09506000134352/"
       },
       "description": "Fictional GS1 demonstration pack of risotto rice with mushrooms, 411g.",
-      "@id": "https://starlord.perdl.com/products/09506000134352/#product",
-      "url": "https://starlord.perdl.com/products/09506000134352/",
+      "@id": "https://gs1-product.perdl.com/products/09506000134352/#product",
+      "url": "https://gs1-product.perdl.com/products/09506000134352/",
       "sku": "TEST-09506000134352",
       "category": "Risotto rice with mushrooms",
       "image": [
@@ -42,8 +42,8 @@
       ],
       "offers": {
         "@type": "Offer",
-        "@id": "https://starlord.perdl.com/products/09506000134352/#test-offer",
-        "url": "https://starlord.perdl.com/products/09506000134352/",
+        "@id": "https://gs1-product.perdl.com/products/09506000134352/#test-offer",
+        "url": "https://gs1-product.perdl.com/products/09506000134352/",
         "price": "3.45",
         "priceCurrency": "GBP",
         "priceValidUntil": "2026-12-31",
@@ -51,9 +51,9 @@
         "itemCondition": "https://schema.org/NewCondition",
         "seller": {
           "@type": "Organization",
-          "@id": "https://starlord.perdl.com/store/#test-seller",
+          "@id": "https://gs1-product.perdl.com/store/#test-seller",
           "name": "Starlord Test Store",
-          "url": "https://starlord.perdl.com/store/"
+          "url": "https://gs1-product.perdl.com/store/"
         },
         "shippingDetails": {
           "@type": "OfferShippingDetails",
@@ -86,7 +86,7 @@
           "@type": "MerchantReturnPolicy",
           "applicableCountry": "GB",
           "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
-          "url": "https://starlord.perdl.com/returns/"
+          "url": "https://gs1-product.perdl.com/returns/"
         }
       }
     },
@@ -97,7 +97,7 @@
       "brand": {
         "@type": "Brand",
         "name": "Apple",
-        "url": "https://starlord.perdl.com/brands/00195950643718/"
+        "url": "https://gs1-product.perdl.com/brands/00195950643718/"
       },
       "mpn": "MG6K4QN/A",
       "model": "iPhone 17",
@@ -161,16 +161,16 @@
           "value": "Not applicable: smartphone, not a food or beverage. This does not assert that device materials are free of contact allergens."
         }
       ],
-      "@id": "https://starlord.perdl.com/products/00195950643718/#product",
-      "url": "https://starlord.perdl.com/products/00195950643718/",
+      "@id": "https://gs1-product.perdl.com/products/00195950643718/#product",
+      "url": "https://gs1-product.perdl.com/products/00195950643718/",
       "sku": "TEST-00195950643718",
       "image": [
         "https://www.icentre.com.mt/cdn/shop/files/IMG-18066267_m_jpeg_1.jpg?v=1778716712&width=823"
       ],
       "offers": {
         "@type": "Offer",
-        "@id": "https://starlord.perdl.com/products/00195950643718/#test-offer",
-        "url": "https://starlord.perdl.com/products/00195950643718/",
+        "@id": "https://gs1-product.perdl.com/products/00195950643718/#test-offer",
+        "url": "https://gs1-product.perdl.com/products/00195950643718/",
         "price": "799.00",
         "priceCurrency": "GBP",
         "priceValidUntil": "2026-12-31",
@@ -178,9 +178,9 @@
         "itemCondition": "https://schema.org/NewCondition",
         "seller": {
           "@type": "Organization",
-          "@id": "https://starlord.perdl.com/store/#test-seller",
+          "@id": "https://gs1-product.perdl.com/store/#test-seller",
           "name": "Starlord Test Store",
-          "url": "https://starlord.perdl.com/store/"
+          "url": "https://gs1-product.perdl.com/store/"
         },
         "shippingDetails": {
           "@type": "OfferShippingDetails",
@@ -213,7 +213,7 @@
           "@type": "MerchantReturnPolicy",
           "applicableCountry": "GB",
           "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
-          "url": "https://starlord.perdl.com/returns/"
+          "url": "https://gs1-product.perdl.com/returns/"
         }
       }
     },
@@ -224,7 +224,7 @@
       "brand": {
         "@type": "Brand",
         "name": "Sierra Nevada Brewing Co.",
-        "url": "https://starlord.perdl.com/brands/00083783000085/"
+        "url": "https://gs1-product.perdl.com/brands/00083783000085/"
       },
       "description": "Single 12 US fl oz bottle of Sierra Nevada Torpedo Extra IPA.",
       "category": "Beer",
@@ -275,16 +275,16 @@
           "value": "Sourced product-family example; exact-GTIN ingredients and label wording not verified. Allergen identification is an inference from barley malt."
         }
       ],
-      "@id": "https://starlord.perdl.com/products/00083783000085/#product",
-      "url": "https://starlord.perdl.com/products/00083783000085/",
+      "@id": "https://gs1-product.perdl.com/products/00083783000085/#product",
+      "url": "https://gs1-product.perdl.com/products/00083783000085/",
       "sku": "TEST-00083783000085",
       "image": [
         "https://craftshack.com/cdn/shop/products/custom_resized_74fb980f-f356-4439-85d1-b7c577c203da_535x.png?v=1693406485"
       ],
       "offers": {
         "@type": "Offer",
-        "@id": "https://starlord.perdl.com/products/00083783000085/#test-offer",
-        "url": "https://starlord.perdl.com/products/00083783000085/",
+        "@id": "https://gs1-product.perdl.com/products/00083783000085/#test-offer",
+        "url": "https://gs1-product.perdl.com/products/00083783000085/",
         "price": "3.25",
         "priceCurrency": "GBP",
         "priceValidUntil": "2026-12-31",
@@ -292,9 +292,9 @@
         "itemCondition": "https://schema.org/NewCondition",
         "seller": {
           "@type": "Organization",
-          "@id": "https://starlord.perdl.com/store/#test-seller",
+          "@id": "https://gs1-product.perdl.com/store/#test-seller",
           "name": "Starlord Test Store",
-          "url": "https://starlord.perdl.com/store/"
+          "url": "https://gs1-product.perdl.com/store/"
         },
         "shippingDetails": {
           "@type": "OfferShippingDetails",
@@ -327,7 +327,7 @@
           "@type": "MerchantReturnPolicy",
           "applicableCountry": "GB",
           "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
-          "url": "https://starlord.perdl.com/returns/"
+          "url": "https://gs1-product.perdl.com/returns/"
         }
       }
     },
@@ -338,11 +338,11 @@
       "brand": {
         "@type": "Brand",
         "name": "Tesco",
-        "url": "https://starlord.perdl.com/brands/05000119096753/"
+        "url": "https://gs1-product.perdl.com/brands/05000119096753/"
       },
       "description": "Tesco Raspberry Jam 454g.",
-      "@id": "https://starlord.perdl.com/products/05000119096753/#product",
-      "url": "https://starlord.perdl.com/products/05000119096753/",
+      "@id": "https://gs1-product.perdl.com/products/05000119096753/#product",
+      "url": "https://gs1-product.perdl.com/products/05000119096753/",
       "sku": "TEST-05000119096753",
       "category": "Jams/Marmalades (Shelf Stable)",
       "image": [
@@ -377,8 +377,8 @@
       ],
       "offers": {
         "@type": "Offer",
-        "@id": "https://starlord.perdl.com/products/05000119096753/#test-offer",
-        "url": "https://starlord.perdl.com/products/05000119096753/",
+        "@id": "https://gs1-product.perdl.com/products/05000119096753/#test-offer",
+        "url": "https://gs1-product.perdl.com/products/05000119096753/",
         "price": "0.89",
         "priceCurrency": "GBP",
         "priceValidUntil": "2026-12-31",
@@ -386,9 +386,9 @@
         "itemCondition": "https://schema.org/NewCondition",
         "seller": {
           "@type": "Organization",
-          "@id": "https://starlord.perdl.com/store/#test-seller",
+          "@id": "https://gs1-product.perdl.com/store/#test-seller",
           "name": "Starlord Test Store",
-          "url": "https://starlord.perdl.com/store/"
+          "url": "https://gs1-product.perdl.com/store/"
         },
         "shippingDetails": {
           "@type": "OfferShippingDetails",
@@ -421,7 +421,7 @@
           "@type": "MerchantReturnPolicy",
           "applicableCountry": "GB",
           "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
-          "url": "https://starlord.perdl.com/returns/"
+          "url": "https://gs1-product.perdl.com/returns/"
         }
       }
     }

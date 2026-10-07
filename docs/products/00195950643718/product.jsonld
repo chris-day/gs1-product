@@ -6,7 +6,7 @@
   "brand": {
     "@type": "Brand",
     "name": "Apple",
-    "url": "https://starlord.perdl.com/brands/00195950643718/"
+    "url": "https://gs1-product.perdl.com/brands/00195950643718/"
   },
   "mpn": "MG6K4QN/A",
   "model": "iPhone 17",
@@ -70,16 +70,16 @@
       "value": "Not applicable: smartphone, not a food or beverage. This does not assert that device materials are free of contact allergens."
     }
   ],
-  "@id": "https://starlord.perdl.com/products/00195950643718/#product",
-  "url": "https://starlord.perdl.com/products/00195950643718/",
+  "@id": "https://gs1-product.perdl.com/products/00195950643718/#product",
+  "url": "https://gs1-product.perdl.com/products/00195950643718/",
   "sku": "TEST-00195950643718",
   "image": [
     "https://www.icentre.com.mt/cdn/shop/files/IMG-18066267_m_jpeg_1.jpg?v=1778716712&width=823"
   ],
   "offers": {
     "@type": "Offer",
-    "@id": "https://starlord.perdl.com/products/00195950643718/#test-offer",
-    "url": "https://starlord.perdl.com/products/00195950643718/",
+    "@id": "https://gs1-product.perdl.com/products/00195950643718/#test-offer",
+    "url": "https://gs1-product.perdl.com/products/00195950643718/",
     "price": "799.00",
     "priceCurrency": "GBP",
     "priceValidUntil": "2026-12-31",
@@ -87,9 +87,9 @@
     "itemCondition": "https://schema.org/NewCondition",
     "seller": {
       "@type": "Organization",
-      "@id": "https://starlord.perdl.com/store/#test-seller",
+      "@id": "https://gs1-product.perdl.com/store/#test-seller",
       "name": "Starlord Test Store",
-      "url": "https://starlord.perdl.com/store/"
+      "url": "https://gs1-product.perdl.com/store/"
     },
     "shippingDetails": {
       "@type": "OfferShippingDetails",
@@ -122,7 +122,7 @@
       "@type": "MerchantReturnPolicy",
       "applicableCountry": "GB",
       "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
-      "url": "https://starlord.perdl.com/returns/"
+      "url": "https://gs1-product.perdl.com/returns/"
     }
   }
 }
