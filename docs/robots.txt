@@ -1,0 +1,15 @@
+# Public documentation and machine-readable product and issuer records.
+# Crawling remains allowed so crawlers can read page-level noindex directives.
+User-agent: *
+# The generated search index duplicates the public documentation.
+Disallow: /search.json
+
+Allow: /
+Allow: /products/
+Allow: /brands/
+Allow: /sources/
+Allow: /data/
+Allow: /.well-known/
+Allow: /status/products/
+
+Sitemap: https://gs1-product.perdl.com/sitemap.xml
