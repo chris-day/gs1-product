@@ -1,8 +1,8 @@
 [project]
-site_url = "https://starlord.perdl.com/"
+site_url = "https://gs1-product.perdl.com/"
 docs_dir = "docs"
 site_dir = "site"
-use_directory_urls = false
+use_directory_urls = true
 site_name = "GS1 Inspired Product Demonstration"
 site_description = "GS1 Inspired Product Demonstration"
 site_author = "Chris Day"
