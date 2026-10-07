@@ -11,10 +11,10 @@
   "id": "https://gs1-product.perdl.com/status/products/revocation.json",
   "issuer": "did:web:gs1-product.perdl.com",
   "proof": {
-    "created": "2026-10-07T14:07:41.935283167+00:00",
+    "created": "2026-10-07T17:51:58.944060029+00:00",
     "cryptosuite": "eddsa-rdfc-2022",
     "proofPurpose": "assertionMethod",
-    "proofValue": "z467Nqcq6wBHpW6s1M1k7fwV4D2WU4RZvkTnPP1JmSAJJPHQpwovHKcX3MjD29MpQi8u6oLMT9qHnSj6ESagdPVdX",
+    "proofValue": "z5MeTACgSQAasNeDnSCFZrDqfkS8M3tQ7SmkPc3ZYSk4NmhNzWGRk7rmawfpTy1SwBWWyrqFJBoz2xHKvV8AbbH9j",
     "type": "DataIntegrityProof",
     "verificationMethod": "did:web:gs1-product.perdl.com#issuer"
   },
@@ -22,6 +22,6 @@
     "VerifiableCredential",
     "BitstringStatusListCredential"
   ],
-  "validFrom": "2026-10-07T14:07:41.934925975+00:00",
-  "validUntil": "2027-10-07T14:07:41.934925975+00:00"
+  "validFrom": "2026-10-07T17:51:58.943712569+00:00",
+  "validUntil": "2027-10-07T17:51:58.943712569+00:00"
 }

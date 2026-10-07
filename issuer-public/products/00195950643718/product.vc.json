@@ -1,0 +1,183 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://gs1-product.perdl.com/contexts/product-holon-v1.jsonld"
+  ],
+  "credentialSchema": {
+    "id": "https://gs1-product.perdl.com/schemas/product-holon-v1",
+    "type": "HolonSubjectSchema"
+  },
+  "credentialStatus": [
+    {
+      "id": "https://gs1-product.perdl.com/status/products/revocation.json#2",
+      "statusListCredential": "https://gs1-product.perdl.com/status/products/revocation.json",
+      "statusListIndex": "2",
+      "statusPurpose": "revocation",
+      "type": "BitstringStatusListEntry"
+    },
+    {
+      "id": "https://gs1-product.perdl.com/status/products/suspension.json#2",
+      "statusListCredential": "https://gs1-product.perdl.com/status/products/suspension.json",
+      "statusListIndex": "2",
+      "statusPurpose": "suspension",
+      "type": "BitstringStatusListEntry"
+    }
+  ],
+  "credentialSubject": {
+    "claims": {
+      "product": {
+        "@id": "https://gs1-product.perdl.com/products/00195950643718/#product",
+        "@type": "Product",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Storage",
+            "value": "256 GB"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "GPC Brick",
+            "value": "10001198"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Processor",
+            "value": "A19"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Display resolution",
+            "value": "2622 x 1206"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Operating system",
+            "value": "iOS"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Food ingredient applicability",
+            "value": "Not applicable — smartphone, not food."
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Food allergen applicability",
+            "value": "Not applicable: smartphone, not a food or beverage. This does not assert that device materials are free of contact allergens."
+          }
+        ],
+        "brand": {
+          "@type": "Brand",
+          "name": "Apple",
+          "url": "https://gs1-product.perdl.com/brands/00195950643718/"
+        },
+        "category": "Smartphones",
+        "color": "White",
+        "depth": {
+          "@type": "QuantitativeValue",
+          "unitCode": "MMT",
+          "value": 7.95
+        },
+        "description": "White Apple iPhone 17 smartphone with 256GB storage, A19 chip and a 6.3-inch OLED display.",
+        "gtin14": "00195950643718",
+        "height": {
+          "@type": "QuantitativeValue",
+          "unitCode": "MMT",
+          "value": 149.6
+        },
+        "image": [
+          "https://www.icentre.com.mt/cdn/shop/files/IMG-18066267_m_jpeg_1.jpg?v=1778716712&width=823"
+        ],
+        "model": "iPhone 17",
+        "mpn": "MG6K4QN/A",
+        "name": "Apple iPhone 17 256GB White",
+        "offers": {
+          "@id": "https://gs1-product.perdl.com/products/00195950643718/#test-offer",
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "GB",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+            "url": "https://gs1-product.perdl.com/returns/"
+          },
+          "itemCondition": "https://schema.org/NewCondition",
+          "price": "799.00",
+          "priceCurrency": "GBP",
+          "priceValidUntil": "2026-12-31",
+          "seller": {
+            "@id": "https://gs1-product.perdl.com/store/#test-seller",
+            "@type": "Organization",
+            "name": "Starlord Test Store",
+            "url": "https://gs1-product.perdl.com/store/"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "maxValue": 2,
+                "minValue": 1,
+                "unitCode": "DAY"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "maxValue": 4,
+                "minValue": 2,
+                "unitCode": "DAY"
+              }
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "GB"
+            },
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "currency": "GBP",
+              "value": "3.99"
+            }
+          },
+          "url": "https://gs1-product.perdl.com/products/00195950643718/"
+        },
+        "sku": "TEST-00195950643718",
+        "url": "https://gs1-product.perdl.com/products/00195950643718/",
+        "weight": {
+          "@type": "QuantitativeValue",
+          "unitCode": "GRM",
+          "value": 177
+        },
+        "width": {
+          "@type": "QuantitativeValue",
+          "unitCode": "MMT",
+          "value": 71.5
+        }
+      }
+    },
+    "createdAt": "2026-10-07T17:50:55.792213+00:00",
+    "evidence": [],
+    "id": "https://gs1-product.perdl.com/products/00195950643718/#holon",
+    "relatedHolons": [],
+    "schemaVersion": "1.0",
+    "source": {
+      "id": "did:web:gs1-product.perdl.com",
+      "kind": "demonstration-publisher"
+    },
+    "type": "ProductHolon"
+  },
+  "id": "urn:uuid:127071a4-43e6-49c5-a73b-0364560bbfd5",
+  "issuer": "did:web:gs1-product.perdl.com",
+  "proof": {
+    "created": "2026-10-07T17:52:45.153317561+00:00",
+    "cryptosuite": "eddsa-rdfc-2022",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z5YegtA5e2YSy7FyfoAHzRUdWypMeXb8E8VULS6ds8drQKFWEU35Bzs3iWZi2hxuCQSFFYcxGbNr5hb7taGiC8eAU",
+    "type": "DataIntegrityProof",
+    "verificationMethod": "did:web:gs1-product.perdl.com#issuer"
+  },
+  "type": [
+    "VerifiableCredential",
+    "HolonCredential"
+  ],
+  "validFrom": "2026-10-07T17:52:45.137041942+00:00",
+  "validUntil": "2027-10-07T17:52:33Z"
+}

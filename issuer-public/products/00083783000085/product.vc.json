@@ -1,0 +1,170 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://gs1-product.perdl.com/contexts/product-holon-v1.jsonld"
+  ],
+  "credentialSchema": {
+    "id": "https://gs1-product.perdl.com/schemas/product-holon-v1",
+    "type": "HolonSubjectSchema"
+  },
+  "credentialStatus": [
+    {
+      "id": "https://gs1-product.perdl.com/status/products/revocation.json#1",
+      "statusListCredential": "https://gs1-product.perdl.com/status/products/revocation.json",
+      "statusListIndex": "1",
+      "statusPurpose": "revocation",
+      "type": "BitstringStatusListEntry"
+    },
+    {
+      "id": "https://gs1-product.perdl.com/status/products/suspension.json#1",
+      "statusListCredential": "https://gs1-product.perdl.com/status/products/suspension.json",
+      "statusListIndex": "1",
+      "statusPurpose": "suspension",
+      "type": "BitstringStatusListEntry"
+    }
+  ],
+  "credentialSubject": {
+    "claims": {
+      "product": {
+        "@id": "https://gs1-product.perdl.com/products/00083783000085/#product",
+        "@type": "Product",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "GPC Brick",
+            "value": "10000159"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Net content",
+            "value": "12 US fl oz"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Container",
+            "value": "Bottle"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Pack count",
+            "value": 1
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Alcohol by volume",
+            "value": "7.2%"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "IBU",
+            "value": 65
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Ingredients (example)",
+            "value": "Example product-family ingredient list: water, barley malt, hops, yeast. Ingredient order is not verified for this exact GTIN."
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Allergens (example / evidence status)",
+            "value": "Contains barley (a gluten-containing cereal), based on the product-family ingredient list. Exact-GTIN pack declaration and cross-contact wording are not verified."
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Ingredient and allergen provenance",
+            "value": "Sourced product-family example; exact-GTIN ingredients and label wording not verified. Allergen identification is an inference from barley malt."
+          }
+        ],
+        "brand": {
+          "@type": "Brand",
+          "name": "Sierra Nevada Brewing Co.",
+          "url": "https://gs1-product.perdl.com/brands/00083783000085/"
+        },
+        "category": "Beer",
+        "description": "Single 12 US fl oz bottle of Sierra Nevada Torpedo Extra IPA.",
+        "gtin14": "00083783000085",
+        "image": [
+          "https://craftshack.com/cdn/shop/products/custom_resized_74fb980f-f356-4439-85d1-b7c577c203da_535x.png?v=1693406485"
+        ],
+        "name": "Sierra Nevada Torpedo Extra IPA, single 12 US fl oz bottle",
+        "offers": {
+          "@id": "https://gs1-product.perdl.com/products/00083783000085/#test-offer",
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "GB",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+            "url": "https://gs1-product.perdl.com/returns/"
+          },
+          "itemCondition": "https://schema.org/NewCondition",
+          "price": "3.25",
+          "priceCurrency": "GBP",
+          "priceValidUntil": "2026-12-31",
+          "seller": {
+            "@id": "https://gs1-product.perdl.com/store/#test-seller",
+            "@type": "Organization",
+            "name": "Starlord Test Store",
+            "url": "https://gs1-product.perdl.com/store/"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "maxValue": 2,
+                "minValue": 1,
+                "unitCode": "DAY"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "maxValue": 4,
+                "minValue": 2,
+                "unitCode": "DAY"
+              }
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "GB"
+            },
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "currency": "GBP",
+              "value": "3.99"
+            }
+          },
+          "url": "https://gs1-product.perdl.com/products/00083783000085/"
+        },
+        "sku": "TEST-00083783000085",
+        "url": "https://gs1-product.perdl.com/products/00083783000085/"
+      }
+    },
+    "createdAt": "2026-10-07T17:50:55.792213+00:00",
+    "evidence": [],
+    "id": "https://gs1-product.perdl.com/products/00083783000085/#holon",
+    "relatedHolons": [],
+    "schemaVersion": "1.0",
+    "source": {
+      "id": "did:web:gs1-product.perdl.com",
+      "kind": "demonstration-publisher"
+    },
+    "type": "ProductHolon"
+  },
+  "id": "urn:uuid:acc72da7-0c55-4b87-a9b7-44fae5fdeca4",
+  "issuer": "did:web:gs1-product.perdl.com",
+  "proof": {
+    "created": "2026-10-07T17:52:43.222114963+00:00",
+    "cryptosuite": "eddsa-rdfc-2022",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z5r9a2hFbaruLxtMh2f2xBayDDtmz1nvP6F5dPnuQLN597H2V2ifcWnuroiWdzdQvyrdshdBodTBzDuCnQk19e9BR",
+    "type": "DataIntegrityProof",
+    "verificationMethod": "did:web:gs1-product.perdl.com#issuer"
+  },
+  "type": [
+    "VerifiableCredential",
+    "HolonCredential"
+  ],
+  "validFrom": "2026-10-07T17:52:43.205805054+00:00",
+  "validUntil": "2027-10-07T17:52:33Z"
+}

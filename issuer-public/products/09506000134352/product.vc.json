@@ -1,0 +1,145 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://gs1-product.perdl.com/contexts/product-holon-v1.jsonld"
+  ],
+  "credentialSchema": {
+    "id": "https://gs1-product.perdl.com/schemas/product-holon-v1",
+    "type": "HolonSubjectSchema"
+  },
+  "credentialStatus": [
+    {
+      "id": "https://gs1-product.perdl.com/status/products/revocation.json#4",
+      "statusListCredential": "https://gs1-product.perdl.com/status/products/revocation.json",
+      "statusListIndex": "4",
+      "statusPurpose": "revocation",
+      "type": "BitstringStatusListEntry"
+    },
+    {
+      "id": "https://gs1-product.perdl.com/status/products/suspension.json#4",
+      "statusListCredential": "https://gs1-product.perdl.com/status/products/suspension.json",
+      "statusListIndex": "4",
+      "statusPurpose": "suspension",
+      "type": "BitstringStatusListEntry"
+    }
+  ],
+  "credentialSubject": {
+    "claims": {
+      "product": {
+        "@id": "https://gs1-product.perdl.com/products/09506000134352/#product",
+        "@type": "Product",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Net content",
+            "value": "411 g"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Ingredients (example)",
+            "value": "TEST ONLY — fictional ingredients: moonbeam rice, mushrooms wearing tiny hats, a spoonful of kitchen confidence, parsley confetti and one heroic stir. Not a real ingredient list."
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Allergens (example / evidence status)",
+            "value": "TEST ONLY — imaginary allergens: mushroom mischief and dramatic chef gestures. May contain traces of Monday mornings. Not a real allergen declaration."
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Ingredient and allergen provenance",
+            "value": "Humorous invented test fixture for a fictional GS1 product. Real ingredients, allergens and cross-contact information remain unknown; these joke terms have no food-safety meaning."
+          }
+        ],
+        "brand": {
+          "@type": "Brand",
+          "name": "Dal Giardino",
+          "url": "https://gs1-product.perdl.com/brands/09506000134352/"
+        },
+        "category": "Risotto rice with mushrooms",
+        "description": "Fictional GS1 demonstration pack of risotto rice with mushrooms, 411g.",
+        "gtin14": "09506000134352",
+        "image": [
+          "https://philarcher.org/gs1/mrhi/2018-07-24/Dal_Giardino_Risotto_Rice_With_Nett_260.png"
+        ],
+        "name": "Dal Giardino Risotto Rice with Mushrooms 411g",
+        "offers": {
+          "@id": "https://gs1-product.perdl.com/products/09506000134352/#test-offer",
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "GB",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+            "url": "https://gs1-product.perdl.com/returns/"
+          },
+          "itemCondition": "https://schema.org/NewCondition",
+          "price": "3.45",
+          "priceCurrency": "GBP",
+          "priceValidUntil": "2026-12-31",
+          "seller": {
+            "@id": "https://gs1-product.perdl.com/store/#test-seller",
+            "@type": "Organization",
+            "name": "Starlord Test Store",
+            "url": "https://gs1-product.perdl.com/store/"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "maxValue": 2,
+                "minValue": 1,
+                "unitCode": "DAY"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "maxValue": 4,
+                "minValue": 2,
+                "unitCode": "DAY"
+              }
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "GB"
+            },
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "currency": "GBP",
+              "value": "3.99"
+            }
+          },
+          "url": "https://gs1-product.perdl.com/products/09506000134352/"
+        },
+        "sku": "TEST-09506000134352",
+        "url": "https://gs1-product.perdl.com/products/09506000134352/"
+      }
+    },
+    "createdAt": "2026-10-07T17:50:55.792213+00:00",
+    "evidence": [],
+    "id": "https://gs1-product.perdl.com/products/09506000134352/#holon",
+    "relatedHolons": [],
+    "schemaVersion": "1.0",
+    "source": {
+      "id": "did:web:gs1-product.perdl.com",
+      "kind": "demonstration-publisher"
+    },
+    "type": "ProductHolon"
+  },
+  "id": "urn:uuid:02ab20a9-a9e7-44d9-bbde-6fc04e2fcd0d",
+  "issuer": "did:web:gs1-product.perdl.com",
+  "proof": {
+    "created": "2026-10-07T17:52:48.897335205+00:00",
+    "cryptosuite": "eddsa-rdfc-2022",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z5KvNKBVaDTuKYa29iba3b76HnZ21sUfWwgBPz77vBRYHAzL7rpfdfgZc5tcoDn3FMWvkEscLWGcwQ52c5M66McxL",
+    "type": "DataIntegrityProof",
+    "verificationMethod": "did:web:gs1-product.perdl.com#issuer"
+  },
+  "type": [
+    "VerifiableCredential",
+    "HolonCredential"
+  ],
+  "validFrom": "2026-10-07T17:52:48.880871716+00:00",
+  "validUntil": "2027-10-07T17:52:33Z"
+}

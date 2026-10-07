@@ -11,10 +11,10 @@
   "id": "https://gs1-product.perdl.com/status/products/suspension.json",
   "issuer": "did:web:gs1-product.perdl.com",
   "proof": {
-    "created": "2026-10-07T14:07:41.942961012+00:00",
+    "created": "2026-10-07T17:51:58.951767971+00:00",
     "cryptosuite": "eddsa-rdfc-2022",
     "proofPurpose": "assertionMethod",
-    "proofValue": "z2t32hcWmAiVhyx41rudVLVfcq38quSZ9LuqWpvYiwE8xeTTxHPYGEusZnDwQQ7TUxcnVc6TXbR6NgY6DQDXT2MUD",
+    "proofValue": "z33RwhSP3e1GbAV9hF78SWyUrkZVvxD75iaKQa4k2LT6Uhm3RKN2qYBTfVr433B9NVrwfHQ8LxbDkcPxa7YWHKBuk",
     "type": "DataIntegrityProof",
     "verificationMethod": "did:web:gs1-product.perdl.com#issuer"
   },
@@ -22,6 +22,6 @@
     "VerifiableCredential",
     "BitstringStatusListCredential"
   ],
-  "validFrom": "2026-10-07T14:07:41.934925975+00:00",
-  "validUntil": "2027-10-07T14:07:41.934925975+00:00"
+  "validFrom": "2026-10-07T17:51:58.943712569+00:00",
+  "validUntil": "2027-10-07T17:51:58.943712569+00:00"
 }
