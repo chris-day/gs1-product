@@ -9,13 +9,13 @@
         "id": "did:web:gs1-product.perdl.com",
         "origin": "https://gs1-product.perdl.com"
       },
-      "id": "urn:uuid:6fc7ae70-2d2e-4096-83d3-d2255afe37db",
+      "id": "urn:uuid:00f1ddac-f954-44c9-92af-88a26dc53e66",
       "issuer": "did:web:gs1-product.perdl.com",
       "proof": {
-        "created": "2026-10-07T11:08:27.651172867+00:00",
+        "created": "2026-10-07T14:07:37.565651342+00:00",
         "cryptosuite": "eddsa-rdfc-2022",
         "proofPurpose": "assertionMethod",
-        "proofValue": "z528jLmghbEmpQkhKJWf1AVA7cS12331WjS68viQuYc4vgScgnaa8hbQCXLGWKJPfWsyYDaUnhK3ebCKvDSucqd7g",
+        "proofValue": "z26zLUGkeiBBC7C6jPY5nr67srhbh3eFCx1HjBFEUG43VHNNWQ2wRmMYh7VvXWfPcgxq8WheVj6eoyZGVVrDKkRmN",
         "type": "DataIntegrityProof",
         "verificationMethod": "did:web:gs1-product.perdl.com#issuer"
       },
@@ -23,8 +23,8 @@
         "VerifiableCredential",
         "HolonDomainLinkageCredential"
       ],
-      "validFrom": "2026-10-07T11:08:27.651144365+00:00",
-      "validUntil": "2027-10-07T11:08:27.651144365+00:00"
+      "validFrom": "2026-10-07T14:07:37.565604155+00:00",
+      "validUntil": "2027-10-07T14:07:37.565604155+00:00"
     }
   ],
   "profile": "holon-vc2-domain-linkage-v1"

@@ -3,16 +3,16 @@
     {
       "cacheControl": "public, max-age=300, must-revalidate",
       "fingerprint": "z6MkoknSPK3Az3uTaFtUdSUk7xcofPm7hxj1dBBt8nC9BjNB",
-      "generatedAt": "2026-10-07T11:08:27.651144365+00:00",
+      "generatedAt": "2026-10-07T14:07:37.565604155+00:00",
       "mediaType": "application/json",
       "path": ".well-known/did-configuration.json",
-      "sha256": "08df731ebbba20ed313b0d81d60584553d3164ba64c2ebada89cb83244843090",
+      "sha256": "450cbc41d8234604fb0c7d1a348351e8eff684a0357aba278af470e202b0997e",
       "url": "https://gs1-product.perdl.com/.well-known/did-configuration.json"
     },
     {
       "cacheControl": "public, max-age=300, must-revalidate",
       "fingerprint": "z6MkoknSPK3Az3uTaFtUdSUk7xcofPm7hxj1dBBt8nC9BjNB",
-      "generatedAt": "2026-10-07T11:08:27.651144365+00:00",
+      "generatedAt": "2026-10-07T14:07:37.565604155+00:00",
       "mediaType": "application/did+ld+json",
       "path": ".well-known/did.json",
       "sha256": "ddcbdcaf5a440cabf37714266d119a0046633e183c24258e40ec0979a38de2a5",
@@ -21,25 +21,25 @@
     {
       "cacheControl": "public, max-age=300, must-revalidate",
       "fingerprint": "z6MkoknSPK3Az3uTaFtUdSUk7xcofPm7hxj1dBBt8nC9BjNB",
-      "generatedAt": "2026-10-07T11:08:27.651144365+00:00",
+      "generatedAt": "2026-10-07T14:07:37.565604155+00:00",
       "mediaType": "application/json",
       "path": ".well-known/holon-issuer.json",
-      "sha256": "5feae01ffc9ce51b2b8a6731de838d7ff098462f4e42438739dadc48d4c9bd06",
+      "sha256": "0ee072030a5704172f7910d375441032ff02a8bb1b0f4363e30164d2913ecb4d",
       "url": "https://gs1-product.perdl.com/.well-known/holon-issuer.json"
     },
     {
       "cacheControl": "public, max-age=300, must-revalidate",
       "fingerprint": "z6MkoknSPK3Az3uTaFtUdSUk7xcofPm7hxj1dBBt8nC9BjNB",
-      "generatedAt": "2026-10-07T11:08:27.651144365+00:00",
+      "generatedAt": "2026-10-07T14:07:37.565604155+00:00",
       "mediaType": "application/json",
       "path": ".well-known/jwks.json",
       "sha256": "a483fce1baa25235283f3bfadf9d248279c8771b0631fdbe0d43302c58de9828",
       "url": "https://gs1-product.perdl.com/.well-known/jwks.json"
     }
   ],
-  "expires": "2027-10-07T11:08:27.651144365+00:00",
+  "expires": "2027-10-07T14:07:37.565604155+00:00",
   "fingerprint": "z6MkoknSPK3Az3uTaFtUdSUk7xcofPm7hxj1dBBt8nC9BjNB",
-  "generatedAt": "2026-10-07T11:08:27.651144365+00:00",
+  "generatedAt": "2026-10-07T14:07:37.565604155+00:00",
   "issuer": "did:web:gs1-product.perdl.com",
   "origin": "https://gs1-product.perdl.com",
   "profile": "holon-manifest-v1"
