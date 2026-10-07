@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1"
+  ],
+  "assertionMethod": [
+    "did:web:gs1-product.perdl.com#issuer"
+  ],
+  "authentication": [
+    "did:web:gs1-product.perdl.com#issuer"
+  ],
+  "id": "did:web:gs1-product.perdl.com",
+  "service": [
+    {
+      "id": "did:web:gs1-product.perdl.com#holon-metadata",
+      "serviceEndpoint": "https://gs1-product.perdl.com/.well-known/holon-issuer.json",
+      "type": "HolonIssuerMetadata"
+    }
+  ],
+  "verificationMethod": [
+    {
+      "controller": "did:web:gs1-product.perdl.com",
+      "id": "did:web:gs1-product.perdl.com#issuer",
+      "publicKeyMultibase": "z6MkoknSPK3Az3uTaFtUdSUk7xcofPm7hxj1dBBt8nC9BjNB",
+      "type": "Multikey"
+    }
+  ]
+}

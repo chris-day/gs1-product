@@ -1,0 +1,12 @@
+{
+  "keys": [
+    {
+      "alg": "EdDSA",
+      "crv": "Ed25519",
+      "kid": "did:web:gs1-product.perdl.com#issuer",
+      "kty": "OKP",
+      "use": "sig",
+      "x": "ijZr7Ay65N58noMCZdGsyTbFnUMa_Ws1wY9Chavo6mQ"
+    }
+  ]
+}
