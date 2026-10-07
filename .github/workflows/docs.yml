@@ -1,29 +1,70 @@
 name: Documentation
+
 on:
   push:
     branches:
       - master
       - main
+  workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
 jobs:
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/configure-pages@v6
+
       - uses: actions/checkout@v7
+
       - uses: actions/setup-python@v6
         with:
-          python-version: 3.x
-      - run: pip install zensical
-      - run: zensical build --clean
+          python-version: '3.x'
+
+      - name: Install Zensical
+        run: pip install zensical
+
+      - name: Build documentation
+        run: zensical build --clean --strict
+
+      - name: Include public issuer files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          for resource in \
+            .well-known/did.json \
+            .well-known/did-configuration.json \
+            .well-known/holon-issuer.json \
+            .well-known/jwks.json \
+            .well-known/manifest.json \
+            status/products/revocation.json \
+            status/products/suspension.json
+          do
+            test -s "issuer-public/$resource"
+          done
+
+          cp -R issuer-public/. site/
+
+          test -s site/.well-known/did.json
+          test -s site/status/products/revocation.json
+          test -s site/status/products/suspension.json
+
       - uses: actions/upload-pages-artifact@v5
         with:
           path: site
+          include-hidden-files: true
+
       - uses: actions/deploy-pages@v5
         id: deployment
