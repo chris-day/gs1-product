@@ -1,0 +1,56 @@
+# GS1 Inspired Product Demonstration
+
+> A demonstration catalogue of four GTIN-identified products, with
+> Schema.org JSON-LD, source provenance, and product credentials.
+
+This is a demonstration site, not a shop or an official GS1 registry.
+Prices, availability, shipping and return terms are synthetic test data.
+There is no checkout.
+
+The Dal Giardino risotto is fictional. The Tesco jam identity match
+remains provisional. Preserve evidence qualifications when using records.
+Statements labelled TEST ONLY are invented examples, not real ingredient
+lists or allergen declarations. Unknown allergens do not mean absent allergens.
+
+Product records and issuer credentials are separate resources.
+Credential publication alone does not establish verification, issuer trust,
+or the factual accuracy of product claims.
+
+This index describes available content; it does not grant crawling,
+training or reuse permissions. Consult robots.txt for crawler directives.
+
+## Start here
+
+- [Product catalogue](https://gs1-product.perdl.com/): Browse all four demonstration products.
+- [About the records](https://gs1-product.perdl.com/about/): Purpose, scope and limitations.
+- [Provenance](https://gs1-product.perdl.com/provenance.json): Identity confidence, sources, synthetic fields and food-composition evidence.
+
+## Products
+
+- [Dal Giardino Risotto Rice with Mushrooms 411g](https://gs1-product.perdl.com/products/09506000134352/): Fictional GS1 demonstration product.
+- [Apple iPhone 17 256GB White](https://gs1-product.perdl.com/products/00195950643718/): Smartphone record; food ingredients and allergens are not applicable.
+- [Sierra Nevada Torpedo Extra IPA](https://gs1-product.perdl.com/products/00083783000085/): Single 12 US fl oz bottle; food-composition evidence is scoped to the product family.
+- [Tesco Raspberry Jam 454g](https://gs1-product.perdl.com/products/05000119096753/): Provisional identity match; ingredient evidence is not exact-GTIN verified.
+
+## Structured product data
+
+- [Combined product records](https://gs1-product.perdl.com/products.jsonld): Schema.org JSON-LD for all four products.
+- [Risotto JSON-LD](https://gs1-product.perdl.com/products/09506000134352/product.jsonld): Individual product record.
+- [iPhone JSON-LD](https://gs1-product.perdl.com/products/00195950643718/product.jsonld): Individual product record.
+- [Beer JSON-LD](https://gs1-product.perdl.com/products/00083783000085/product.jsonld): Individual product record.
+- [Jam JSON-LD](https://gs1-product.perdl.com/products/05000119096753/product.jsonld): Individual product record.
+
+## Issuer and credentials
+
+- [Issuer metadata](https://gs1-product.perdl.com/.well-known/holon-issuer.json): Issuer identity, supported credential mechanisms and declared trust policy.
+- [Issuer DID document](https://gs1-product.perdl.com/.well-known/did.json): Verification methods and public keys.
+- [Product credential schema](https://gs1-product.perdl.com/schemas/product-holon-v1.json): Structure of product credentials.
+- [Example product credential](https://gs1-product.perdl.com/products/09506000134352/product.vc.json): Risotto credential; inspect its proof, validity and credentialStatus references.
+
+## Optional
+
+- [Test store](https://gs1-product.perdl.com/store/): Synthetic seller information.
+- [Delivery](https://gs1-product.perdl.com/delivery/): Demonstration shipping terms.
+- [Returns](https://gs1-product.perdl.com/returns/): Demonstration return policy.
+- [Crawler rules](https://gs1-product.perdl.com/robots.txt): Published crawler directives.
+- [Sitemap](https://gs1-product.perdl.com/sitemap.xml): Complete page discovery.

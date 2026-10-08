@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <link rel="describedby" href="{{ 'llms.txt' | url }}" type="text/plain">
+{% endblock %}

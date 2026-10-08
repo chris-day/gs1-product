@@ -16,7 +16,7 @@
     "GS1 GPC brick codes are not Google Product Taxonomy IDs.",
     "Ingredient and allergen statements are explicitly scoped examples. Food allergen unknown is not equivalent to absent. Phone food properties are not applicable.",
     "HTML navigation links target local docs pages; external source addresses are reference text.",
-    "No credentials included. Full custom templates preserve the reference layout."
+    "The original product-data release did not include credentials. This site now publishes product credentials separately at /products/{GTIN}/product.vc.json, with issuer metadata under /.well-known/. Publication alone does not establish proof verification, issuer trust or factual accuracy. Full custom templates preserve the reference layout."
   ],
   "records": [
     {
