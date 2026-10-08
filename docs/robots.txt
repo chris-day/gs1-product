@@ -1,30 +1,41 @@
+# Content usage preferences: allow search; decline AI training and AI input.
+# Content Signals complement the crawl rules below.
 # Public documentation and machine-readable product and issuer records.
 # Crawling remains allowed so crawlers can read page-level noindex directives.
 User-agent: GPTBot
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Disallow: /
 
 User-agent: Google-Extended
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Disallow: /
 
 User-agent: Applebot-Extended
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Disallow: /
 
 User-agent: ClaudeBot
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Disallow: /
 
 User-agent: CCBot
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Disallow: /
 
 User-agent: OAI-SearchBot
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Allow: /
 
 User-agent: ChatGPT-User
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Allow: /
 
 User-agent: PerplexityBot
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Allow: /
 
 User-agent: *
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Allow: /
 
 # The generated search index duplicates the public documentation.
