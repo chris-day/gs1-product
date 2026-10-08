@@ -16,6 +16,15 @@ Product records and issuer credentials are separate resources.
 Credential publication alone does not establish verification, issuer trust,
 or the factual accuracy of product claims.
 
+Public documentation, product records and credential files require no
+authentication. This site provides no agent registration, account provisioning
+or OAuth token service. Published product credentials are data records,
+not access credentials.
+
+This site does not operate an MCP server or expose MCP tools, resources or
+prompts. Agents can retrieve the public documents and data files directly
+over HTTPS.
+
 This index describes available content; it does not grant crawling,
 training or reuse permissions. Consult robots.txt for crawler directives.
 
