@@ -1,6 +1,32 @@
 # Public documentation and machine-readable product and issuer records.
 # Crawling remains allowed so crawlers can read page-level noindex directives.
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
 User-agent: *
+Allow: /
+
 # The generated search index duplicates the public documentation.
 Disallow: /search.json
 
@@ -11,5 +37,6 @@ Allow: /sources/
 Allow: /data/
 Allow: /.well-known/
 Allow: /status/products/
+
 
 Sitemap: https://gs1-product.perdl.com/sitemap.xml
